@@ -7,11 +7,11 @@
 
         default_layer { // Layer 0
             // -------------------------
-            // |     Z     |     M     |
-            // |     A     |     B     |
+            // |   Play/Pause    |     M     |
+            // |        A        |     B     |
             bindings = <
-                &kp Z    &kp M
-                &kp A    &kp B
+                &kp K_PLAY_PAUSE    &kp M
+                &kp A               &kp B
             >;
         };
     };
