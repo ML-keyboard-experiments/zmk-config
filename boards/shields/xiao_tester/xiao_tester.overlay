@@ -1,4 +1,4 @@
-#include "tester_xiao.dtsi"
+#include "xiao_tester.dtsi"
 \ {
     chosen {
         zmk,physical-layout = &macropad_physical_layout;
