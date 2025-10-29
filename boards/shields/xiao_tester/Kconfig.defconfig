@@ -2,6 +2,6 @@ if SHIELD_XIAO_TESTER
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "Tester XIAO"
+    default "XIAO tester"
 
 endif

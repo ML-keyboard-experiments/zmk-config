@@ -1,7 +1,7 @@
 / {
     macropad_physical_layout: macropad_physical_layout {
         compatible = "zmk,physical-layout";
-        display-name = "Tester XIAO";
+        display-name = "XIAO tester";
         kscan = <&kscan0>;
         transform = <&default_transform>;
 
