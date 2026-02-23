@@ -5,14 +5,22 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer { // Layer 0
+        default_layer {
             // -------------------------
             // |   Play/Pause    |     M     |
             // |        A        |     B     |
+
             bindings = <
-                &kp C_PREV    &kp C_MUTE
-                &kp C_NEXT    &kp C_PLAY_PAUSE
+&kp C_PREV  &kp C_MUTE
+&kp C_NEXT  &kp C_PLAY_PAUSE
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&trans  &trans
+&trans  &trans
             >;
         };
     };
- };
+};
