@@ -9,15 +9,18 @@
             // -------------------------
             // |   Play/Pause    |     M     |
             // |        A        |     B     |
+            // |        C        |     D     |
 
             bindings = <
 &kp C_PREV  &kp C_MUTE
 &kp C_NEXT  &kp C_PLAY_PAUSE
+&kp C_VOL_UP &kp C_VOL_DN
             >;
         };
 
         layer_1 {
             bindings = <
+&trans  &trans
 &trans  &trans
 &trans  &trans
             >;
