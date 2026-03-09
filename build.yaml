@@ -26,3 +26,6 @@ include:
   - board: xiao_ble//zmk
     shield: testing_board_matrix
     artifact-name: testing_board_matrix
+  - board: xiao_ble//zmk
+    shield: testing_board_charlieplexing
+    artifact-name: testing_board_charlieplexing
