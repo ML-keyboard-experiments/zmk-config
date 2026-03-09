@@ -1,6 +1,6 @@
 {
-  "id": "xiao_tester",
-  "name": "XIAO tester",
+  "id": "testing_board_matrix",
+  "name": "Testing board matrix",
   "layouts": {
     "default_transform": {
       "name": "default_transform",

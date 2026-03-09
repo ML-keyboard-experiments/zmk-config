@@ -1,7 +1,7 @@
-if SHIELD_XIAO_TESTER
+if SHIELD_TESTING_BOARD_MATRIX
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "XIAO tester"
+    default "Test board m"
 
 endif
