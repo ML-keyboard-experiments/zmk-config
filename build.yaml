@@ -20,7 +20,12 @@
 ---
 include:
   - board: xiao_ble//zmk
-    shield: xiao_tester
+    shield: testing_board_matrix
     snippet: zmk-usb-logging
+    artifact-name: testing_board_matrix_with_logging
   - board: xiao_ble//zmk
-    shield: tester_xiao
+    shield: testing_board_matrix
+    artifact-name: testing_board_matrix
+  - board: xiao_ble//zmk
+    shield: testing_board_charlieplexing
+    artifact-name: testing_board_charlieplexing
