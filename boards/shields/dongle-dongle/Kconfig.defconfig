@@ -5,7 +5,7 @@ config ZMK_KEYBOARD_NAME
     default "Test board d"
 
 config ZMK_BLE
-    default n
+    default y
 
 config ZMK_SPLIT
     default y
