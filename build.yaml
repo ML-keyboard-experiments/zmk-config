@@ -23,6 +23,7 @@ include:
   - board: xiao_ble//zmk
     shield: dongle-dongle
     artifact-name: dongle-dongle
+    snippet: zmk-usb-logging
   - board: xiao_ble//zmk
     shield: dongle-testing_board_matrix
     artifact-name: dongle-testing_board_matrix
