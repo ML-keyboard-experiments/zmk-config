@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "testing_board_matrix.dtsi"
+#include "dongle-testing_board_matrix.dtsi"
 
 / {
     chosen {
