@@ -14,7 +14,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 2
+    default 1
 
 # ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS + your desired number of BT profiles (default is 5)
 config BT_MAX_CONN
@@ -23,5 +23,17 @@ config BT_MAX_CONN
 # Set this to the same number as BT_MAX_CONN
 config BT_MAX_PAIRED
     default 7
+
+endif
+
+
+if SHIELD_DONGLE_TESTING_BOARD_CHARLIEPLEXING
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Test board c"
+
+config ZMK_SPLIT
+    default y
 
 endif
