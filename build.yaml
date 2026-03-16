@@ -19,3 +19,13 @@ include:
   - board: xiao_ble//zmk
     shield: testing_board_charlieplexing
     artifact-name: testing_board_charlieplexing
+  # with dongle
+  - board: xiao_ble//zmk
+    shield: dongle-dongle
+    artifact-name: dongle-dongle
+  - board: xiao_ble//zmk
+    shield: dongle-testing_board_matrix
+    artifact-name: dongle-testing_board_matrix
+  # - board: xiao_ble//zmk
+  #   shield: dongle-testing_board_charlieplexing
+  #   artifact-name: dongle-testing_board_charlieplexing
